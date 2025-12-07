@@ -7,18 +7,15 @@ export default async function handler(req, res) {
     const response = await fetch(url);
     const data = await response.json();
 
-    // sadece adalar hatlarını filtrele
-    const adalarSeferleri = data.result.records.filter(
-      item => item.Baslangic_Adi.includes("ADA") || item.Bitis_Adi.includes("ADA")
-    );
-
     res.status(200).json({
       ok: true,
-      toplam: adalarSeferleri.length,
-      seferler: adalarSeferleri
+      json: data
     });
 
   } catch (err) {
-    res.status(500).json({ ok: false, hata: err.toString() });
+    res.status(500).json({
+      ok: false,
+      hata: err.toString()
+    });
   }
 }
