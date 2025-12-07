@@ -27,4 +27,91 @@
           ["14:00", "—", "14:25", "15:00", "15:15", "15:30", "15:45", "—"],
           ["16:30", "—", "16:55", "17:30", "17:45", "18:00", "18:15", "18:50"],
           ["17:35", "—", "18:00", "18:35", "18:50", "19:05", "19:20", "—"],
-          ["18:2]()
+          ["18:25", "—", "—",    "—",    "—",    "19:20", "19:35", "—"],
+          ["18:50", "19:05", "19:25", "20:00", "20:15", "20:30", "20:45", "—"],
+          ["19:20", "—", "—", "—", "—", "20:20", "20:35", "—"],
+          ["19:40", "—", "20:05", "20:40", "20:55", "21:10", "21:25", "—"],
+          ["21:40", "—", "22:05", "22:40", "22:55", "23:10", "23:30", "00:05"],
+          ["23:30", "—", "23:55", "00:30", "00:45", "01:00", "01:15", "—"]
+        ],
+        "pazar_tatil": [
+          ["07:30","—","07:55","08:30","08:45","09:00","09:15","09:50"],
+          ["08:30","—","08:55","09:30","09:45","10:00","10:15","—"],
+          ["09:05","—","09:30","10:05","10:20","10:35","10:50","—"],
+          ["10:05","—","10:30","11:05","11:20","11:35","11:50","—"],
+          ["11:05","—","11:30","12:05","12:20","12:35","12:50","13:25"],
+          ["12:05","—","12:30","13:05","13:20","13:35","13:50","—"],
+          ["14:00","—","14:25","15:00","15:15","15:30","15:45","—"],
+          ["16:30","—","16:55","17:30","17:45","18:00","18:15","18:50"],
+          ["17:35","—","18:00","18:35","18:50","19:05","19:20","—"],
+          ["18:25","—","—","—","—","19:20","19:35","—"],
+          ["18:50","19:05","19:25","20:00","20:15","20:30","20:45","—"],
+          ["19:20","—","—","—","—","20:20","20:35","—"],
+          ["19:40","—","20:05","20:40","20:55","21:10","21:25","—"],
+          ["21:40","—","22:05","22:40","22:55","23:10","23:30","00:05"],
+          ["23:30","—","23:55","00:30","00:45","01:00","01:15","—"]
+        ]
+      }
+    },
+
+    "adalar-besiktas": {
+      "baslik": "Adalar - Beşiktaş",
+      "link": "https://sehirhatlari.istanbul/tr/seferler/ic-hatlar/adalar-hatlari/adalar-besiktas-769",
+      "duraklar": [
+        { "ad": "Büyükada", "lat": 40.869385, "lng": 29.115100 },
+        { "ad": "Heybeliada", "lat": 40.879060, "lng": 29.069890 },
+        { "ad": "Burgazada", "lat": 40.888927, "lng": 29.058082 },
+        { "ad": "Kınalıada", "lat": 40.905308, "lng": 29.042068 },
+        { "ad": "Beşiktaş", "lat": 41.039364, "lng": 29.001862 }
+      ],
+      "tarife": { "hafta_ici_cumartesi": [], "pazar_tatil": [] }
+    },
+
+    "bostanci-adalar-ring": {
+      "baslik": "Bostancı - Adalar Ring",
+      "link": "https://sehirhatlari.istanbul/tr/seferler/ic-hatlar/adalar-hatlari/bostanci-adalar-ring-hatti-770",
+      "duraklar": [
+        { "ad": "Bostancı", "lat": 40.953460, "lng": 29.093330 },
+        { "ad": "Kınalıada", "lat": 40.905308, "lng": 29.042068 },
+        { "ad": "Burgazada", "lat": 40.888927, "lng": 29.058082 },
+        { "ad": "Heybeliada", "lat": 40.879060, "lng": 29.069890 },
+        { "ad": "Büyükada", "lat": 40.869385, "lng": 29.115100 }
+      ],
+      "tarife": { "hafta_ici_cumartesi": [], "pazar_tatil": [] }
+    },
+
+    "buyukada-sedef": {
+      "baslik": "Büyükada - Sedef Adası",
+      "link": "https://sehirhatlari.istanbul/tr/seferler/ic-hatlar/adalar-hatlari/buyukada-sedef-adasi-hatti-895",
+      "duraklar": [
+        { "ad": "Büyükada", "lat": 40.869385, "lng": 29.115100 },
+        { "ad": "Sedef Adası", "lat": 40.853933, "lng": 29.152071 }
+      ],
+      "tarife": { "hafta_ici_cumartesi": [], "pazar_tatil": [] }
+    },
+
+    "maltepe-adalar": {
+      "baslik": "Maltepe - Adalar",
+      "link": "https://sehirhatlari.istanbul/tr/seferler/ic-hatlar/adalar-hatlari/maltepe-buyukada-heybeliada-burgazada-kinaliada-hatti-2020",
+      "duraklar": [
+        { "ad": "Maltepe", "lat": 40.935198, "lng": 29.155069 },
+        { "ad": "Kınalıada", "lat": 40.905308, "lng": 29.042068 },
+        { "ad": "Burgazada", "lat": 40.888927, "lng": 29.058082 },
+        { "ad": "Heybeliada", "lat": 40.879060, "lng": 29.069890 },
+        { "ad": "Büyükada", "lat": 40.869385, "lng": 29.115100 }
+      ],
+      "tarife": { "hafta_ici_cumartesi": [], "pazar_tatil": [] }
+    },
+
+    "tuzla-adalar": {
+      "baslik": "Tuzla - Pendik - Büyükada",
+      "link": "https://sehirhatlari.istanbul/tr/seferler/ic-hatlar/adalar-hatlari/tuzla-pendik-buyukada-hatti-3373",
+      "duraklar": [
+        { "ad": "Tuzla", "lat": 40.821668, "lng": 29.301390 },
+        { "ad": "Pendik", "lat": 40.874206, "lng": 29.225676 },
+        { "ad": "Büyükada", "lat": 40.869385, "lng": 29.115100 }
+      ],
+      "tarife": { "hafta_ici_cumartesi": [], "pazar_tatil": [] }
+    }
+  }
+}
